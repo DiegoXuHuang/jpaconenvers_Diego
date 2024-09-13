@@ -24,7 +24,8 @@ public class Main {
             factura1.setFecha("10/08/2020");
 
             Domicilio domicilio = new Domicilio("San martin", 1222);
-            Cliente cliente = new Cliente("Diego", "Xu Huang", 12235334);
+            Cliente cliente = new Cliente("Facundo", "Xu Huang", 12235334);
+
             cliente.setDomicilio(domicilio);
             domicilio.setCliente(cliente);
 
